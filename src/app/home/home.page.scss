@@ -1,0 +1,17 @@
+table {
+    background: linear-gradient(90deg, purple 50%, blue 100%);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tr {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}

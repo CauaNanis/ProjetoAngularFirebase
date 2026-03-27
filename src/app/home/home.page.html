@@ -1,5 +1,23 @@
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen="true"]>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Descrição</th>
+            <th>Estoque</th>
+            <th>Categoria</th>
+        </tr>
 
-    
-    
+        <ng-container *ngFor='let produto of this.produtos'>
+            <tr>
+                <td>{{ produto.nome }}</td>
+                <td>{{ produto.preco }}</td>
+                <td>{{ produto.descricao }}</td>
+                <td>{{ produto.estoque }}</td>
+                <ng-container *ngFor='let categoria of produto.categoria'>
+                    <td>{{ categoria.nome }}</td>
+                </ng-container>
+            </tr>
+        </ng-container>
+    </table>
 </ion-content>
