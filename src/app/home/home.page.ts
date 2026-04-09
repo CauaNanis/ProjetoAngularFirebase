@@ -12,6 +12,16 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-  
+  veiculo: any = {
+    modelo: null,
+    marca: null,
+    cor: null,
+  }
+
+  veiculos: any = [];
+
+  adicionar (){
+    this.veiculos.push(this.veiculo);
+  }
 
 }
