@@ -1,4 +1,3 @@
-//corpo da página
 ion-content {
   --background: #f2f2f2;
 }
@@ -11,7 +10,7 @@ ion-content {
 }
 
 .altura {
-    height: 100vh;
+    height: 70vh;
 }
 
 ion-col:last-child {
@@ -20,17 +19,15 @@ ion-col:last-child {
   align-items: center;
 }
 
-//titulo
 ion-title {
   text-align: center;
-  margin-top: 50%;
+  margin-top: 35%;
   font-size: 50px;
   margin-bottom: 20px;
   color: black;
   font-weight: bold;
 }
 
-//h1 login com
 h1 {
   text-align: center;
   margin-top: 50px;
@@ -38,7 +35,6 @@ h1 {
   color: black;
 }
 
-//inputs
 ion-item {
   width: 60%;
   margin-bottom: 14px;
@@ -58,7 +54,6 @@ ion-input {
   --placeholder-opacity: 1;
 }
 
-//botoes
 .criar-conta {
   width: 25%;
   margin-top: 40px;
@@ -69,6 +64,7 @@ ion-input {
 
 .botao {
   width: 25%;
+  margin-bottom: 10%;
 }
 
 .facebook {
